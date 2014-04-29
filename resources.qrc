@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="/plugins/spatialmetrics">
+    <file>dir.png</file>
+    <file>envior.png</file>
+    <file>icon1.png</file>
+    <file>previous.png</file>
+    <file>next.png</file>
+    <file>play1.png</file>
+    <file>maps.png</file>
+    <file>arrowright.png</file>
+    <file>icon2.png</file>
+    <file>icon.png</file>
+  </qresource>
+</RCC>
