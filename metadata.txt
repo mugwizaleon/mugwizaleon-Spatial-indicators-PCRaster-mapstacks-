@@ -11,7 +11,7 @@
 [general]
 name=SM
 qgisMinimumVersion=2.0
-description=This plugins calculates and allows visualization of spatial indicators of changes in spatial patterns that govern the provision of ecosystem services in a catchment. The plugin also allows the visualization and animation of PCRaster dynamic mapstacks.
+description=This plugins calculates Spatial Metrics for Spatial Indicators
 version=0.1
 author=Leon
 email=mugwizal@gmail.som
@@ -31,7 +31,7 @@ tracker=
 repository=
 icon=icon.png
 # experimental flag
-experimental=True
+experimental=False
 
 # deprecated flag (applies to the whole plugin, not just a single version
 deprecated=False
