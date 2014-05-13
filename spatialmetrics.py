@@ -196,7 +196,7 @@ class SpatialMetrics:
             for i in range(0,100+1,50):
                 self.dlg.ui.progressBar_2.setProperty("value",i)
 #                execfile("/home/mugwiza/workspace/MyPlugin/SpatialMetrics/preprocessing/metrics2.py")
-                os.system( "python calculatemetrics.py "+classe+"  "+Naming+"  "+Metric ) 
+#                os.system( "python calculatemetrics.py "+classe+"  "+Naming+"  "+Metric ) 
 #                os.system("python imgshow.py "+Naming+"  "+Metric)            
                 self.dlg.ui.progressBar_2.setProperty("value",i)
             self.dlg.ui.pushButton_5.setEnabled(True)
