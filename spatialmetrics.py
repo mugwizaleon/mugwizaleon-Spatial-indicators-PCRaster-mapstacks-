@@ -114,8 +114,8 @@ class SpatialMetrics:
         self.action.triggered.connect(self.run)
         self.action2.triggered.connect(self.TSS)
         # Add toolbar button and menu item
-        self.iface.addPluginToMenu(u"&spatial planning tool ", self.action)
-        self.iface.addPluginToMenu(u"&spatial planning tool ", self.action2)
+        self.iface.addPluginToRasterMenu(u"&spatial planning tool ", self.action)
+        self.iface.addPluginToRasterMenu(u"&spatial planning tool ", self.action2)
         self.iface.addToolBarIcon(self.action)
         self.iface.addToolBarIcon(self.action2)
     
